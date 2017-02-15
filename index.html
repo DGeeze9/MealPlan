@@ -16,10 +16,10 @@
     <!-- add Navigation Buttons-->
     <nav id="navbar">
       <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="#">Diet Plan</a></li>
-        <li role="presentation"><a href="#">Tips</a></li>
-        <li role="presentation"><a href="#">Shopping List</a></li>
-        <li role="presentation"><a href="#">Serving Sizes</a></li>
+        <li class="navItem active" id="diettab" role="presentation" ><a href="#">Diet Plan</a></li>
+        <li class="navItem" id="tipstab" role="presentation"><a href="#">Tips</a></li>
+        <li class="navItem" id="shoppingtab" role="presentation"><a href="#">Shopping List</a></li>
+        <li class="navItem" id="servingstab" role="presentation"><a href="#">Serving Sizes</a></li>
       </ul>
     </nav>
 
@@ -29,11 +29,11 @@
         <h1>Diana's Meal Plan <small>One on One  Year Plan</small></h1>
       </header>
       
-      <section id="tables">
+      <section id="tables" class="hidden">
         
         <!-- list of tables-->
         <div class="btn-group" role="group" aria-label="...">
-          <button type="button" class="btn btn-default">Cardio Table</button>
+          <button type="button" class="btn btn-primary active">Cardio Table</button>
           <button type="button" class="btn btn-default">Weight Lifting Table</button>
         </div> <!-- end of list of tables-->
       
@@ -101,7 +101,7 @@
         </table>  <!--end of cardio table-->
   
         <!--  Weight Lifting Table -->
-        <table id="liftingtable" class="table table-condensed table-bordered table-striped">
+        <table id="liftingtable" class="table table-condensed table-bordered table-striped hidden">
           <caption>WEIGHTS - **FEBRUARY**MONDAY, TUESDAY, WEDNESDAY & FRIDAY (1 HOUR TOTAL)</caption>
           <thead>
             <tr class="info">
@@ -174,7 +174,7 @@
         
       </section>
       
-      <section id="tips">
+      <section id="tips" class="hidden">
         <!-- list of tips-->
         <div id="listoftips">
           <div class="btn-group" role="group" aria-label="...">
@@ -291,7 +291,7 @@
         </div>
       </section>
       
-      <section id="grocerylist">
+      <section id="grocerylist" class="hidden">
         <!-- Grocery List  -->
         <div class="container">
           <h4>Here's a list of foods you can use, just pick your favorites.</h4>
@@ -368,7 +368,7 @@
         </div>
       </section>
       
-      <section id="servingsizes">
+      <section id="servingsizes" class="hidden">
         <!-- Serving Size Pictures -->
         <div class="servingPictures">
           <h3>*For frame of reference in regard to serving sizes per meal, please view the pictures below.</h3>
