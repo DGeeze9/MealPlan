@@ -14,371 +14,403 @@
   </head>
   <body>
     <!-- add Navigation Buttons-->
-    <ul class="nav nav-tabs">
-      <li role="presentation" class="active"><a href="#">Diet Plan</a></li>
-      <li role="presentation"><a href="#">Tips</a></li>
-      <li role="presentation"><a href="#">Shopping List</a></li>
-      <li role="presentation"><a href="#">Serving Sizes</a></li>
-    </ul>
+    <nav id="navbar">
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">Diet Plan</a></li>
+        <li role="presentation"><a href="#">Tips</a></li>
+        <li role="presentation"><a href="#">Shopping List</a></li>
+        <li role="presentation"><a href="#">Serving Sizes</a></li>
+      </ul>
+    </nav>
 
     <!-- Body of page-->
-    <div class="container">
-      <h1>Diana's Meal Plan</h1>
-      <!--  Cardio Table -->
-      <table class="table table-condensed table-bordered table-striped">
-        <caption>CARDIO ONLY OR REST - MONDAY, TUESDAY & WEDNESDAY</caption>
-        <thead>
-          <tr class="success">
-            <th>Meal:</th>
-            <th>Time:</th>
-            <th>Protein Amount:</th>
-            <th>Veggie Amount:</th>
-            <th>Healthy Fat Amount:</th>
-            <th>Healthy Carb Amount:</th>
-            <th>Workout Carb Amount:</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Meal 1</td>
-            <td>~7:00 AM (waking)</td>
-            <td>4oz  any lean protein source</td>
-            <td>2 small handfuls greens</td>
-            <td>1 serving healthy fats</td>
-            <td>None</td>
-            <td>None</td>
-          </tr>
-          <tr>
-            <td>Meal 2</td>
-            <td>~11:00 AM (3-5 hours after last meal)</td>
-            <td>4oz  any lean protein source</td>
-            <td>2 small handfuls greens</td>
-            <td>1 serving healthy fats</td>
-            <td>20 g healthy carbs</td>
-            <td>None</td>
-          </tr>
-          <tr>
-            <td>Meal 3</td>
-            <td>~3:00 PM (3-5 hours after last meal)</td>
-            <td>4oz  any lean protein source</td>
-            <td>2 small handfuls greens</td>
-            <td>1 serving healthy fats</td>
-            <td>20 g healthy carbs</td>
-            <td>None</td>
-          </tr>
-          <tr>
-            <td>Meal 4</td>
-            <td>~7:00 PM (3-5 hours after last meal)</td>
-            <td>4oz  any lean protein source</td>
-            <td>2 small handfuls greens</td>
-            <td>1 serving healthy fats</td>
-            <td>20 g healthy carbs</td>
-            <td>None</td>
-          </tr>
-          <tr>
-            <td>Meal 5</td>
-            <td>~11:00 PM (Bedtime)</td>
-            <td>20g casein protein in water</td>
-            <td>None</td>
-            <td>1.5 servings healthy fats</td>
-            <td>None</td>
-            <td>None</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <!--  Weight Lifting Table -->
-      <table class="table table-condensed table-bordered table-striped">
-        <caption>WEIGHTS - **FEBRUARY**MONDAY, TUESDAY, WEDNESDAY & FRIDAY (1 HOUR TOTAL)</caption>
-        <thead>
-          <tr class="info">
-            <th>Meal:</th>
-            <th>Time:</th>
-            <th>Protein Amount:</th>
-            <th>Veggie Amount:</th>
-            <th>Healthy Fat Amount:</th>
-            <th>Healthy Carb Amount:</th>
-            <th>Workout Carb Amount:</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Meal 1</td>
-            <td>~5:00/5:30 AM (Drink 2/3 of workout shake upon waking, 1/3 during workout)</td>
-            <td>20g whey protein in water</td>
-            <td>None</td>
-            <td>None</td>
-            <td>None</td>
-            <td>25g workout carbs </td>
-          </tr>
-          <tr>
-            <td>Meal 2</td>
-            <td>~7:00 AM (20 minutes after workout is over)</td>
-            <td>3oz  any lean protein source</td>
-            <td>2 small handfuls greens</td>
-            <td>1/2 serving healthy fats</td>
-            <td>40 g healthy carbs</td>
-            <td>None</td>
-          </tr>
-          <tr>
-            <td>Meal 3</td>
-            <td>~10:30 AM (2-4 hours after last meal)</td>
-            <td>3oz  any lean protein source</td>
-            <td>2 small handfuls greens</td>
-            <td>1/2 serving healthy fats</td>
-            <td>20 g healthy carbs</td>
-            <td>None</td>
-          </tr>
-          <tr>
-            <td>Meal 4</td>
-            <td>~2:30 PM (3-5 hours after last meal)</td>
-            <td>3oz  any lean protein source</td>
-            <td>2 small handfuls greens</td>
-            <td>1/2 serving healthy fats</td>
-            <td>20 g healthy carbs</td>
-            <td>None</td>
-          </tr>
-          <tr>
-            <td>Meal 5</td>
-            <td>~6:00 PM (3-5 hours after last meal)</td>
-            <td>3oz  any lean protein source</td>
-            <td>2 small handfuls greens</td>
-            <td>1/2 serving healthy fats</td>
-            <td>20 g healthy carbs</td>
-            <td>None</td>
-          </tr>
-          <tr>
-            <td>Meal 6</td>
-            <td>~9:30 PM (Bedtime)</td>
-            <td>20g casein protein in water</td>
-            <td>None</td>
-            <td>1 servings healthy fats</td>
-            <td>None</td>
-            <td>None</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <!-- list of tips-->
-      <div class="btn-group" role="group" aria-label="...">
-        <button type="button" class="btn btn-default">Quick Tips</button>
-        <button type="button" class="btn btn-default">Travel Tips</button>
-        <button type="button" class="btn btn-default">Dining Out Tips</button>
-      </div>
-      <!-- Quick Tips List-->
-      <div class="list-group">
-        <button href="#" class="list-group-item active">
-          QUICK TIPS
-        </button>
-        <button href="#" class="list-group-item">There is no need to worry about crossover calculations on the templates for the fat in protein sources, carbs in fat sources, etc. You just focus on hitting the amounts listed PER column. The rest has been factored in by the expert team at RP. This is designed for simplicty's sake, making things easier to follow and an easier diet generally yields better long term results. </button>
-        <button href="#" class="list-group-item">When measuring amounts on the templates, protein is total weight (3oz protein =18g WORTH of protein), fats are measured in the amount of fat (1 serving of fat = 15g WORTH of fat), and carbs are measured in the AMOUNT of carbs, NOT the total weight (100g TOTAL weight of carbohydrate for sweet potato only yields about 25g WORTH of carbohydrates).</button>
-        <button href="#" class="list-group-item">We do NOT recommend starting the diet templates until you have read the "how to use the diet templates" document, have watched the "how to" video AND have read the extensive diet FAQ document. Here is a helpful walkthrough video by Dr. Jen Case -  <a href="https://youtu.be/H7lf8RUlmaA">youTube</a></button>
-        <button href="#" class="list-group-item">Be sure to join the RP Clients group on Facebook. Our group has over 10,000 members and tons of veterans of RP that can help! Use the link here to join: <a href="https://www.facebook.com/groups/808584542522388/">Facebook Group</a></button>
-        <button href="#" class="list-group-item">If you have any issues with casein protein, the FAQ recommends some alternatives ranked in order of best to worst (other dairy products, then any lean protein source, then last is just whey).</button>
-        <button href="#" class="list-group-item">If you find that you're hungry upon starting the templates, that's 100% normal as you get used to not eating whenever you want, but have a more set scientific meal timing schedule. Most people's hunger levels adjust at least somewhat after several days.</button>
-        <button href="#" class="list-group-item">If you find yourself hungry, use higher volume foods (ex - nuts instead of oils, sweet potatoes vs rice). The opposite applies if you are full or don't find yourself overly hungry; use lower volume foods to help reduce overall food volume. </button>
-        <button href="#" class="list-group-item">If you want to use foods NOT listed on the RP spreadsheet, it's very likely ok to do so. Our best recommendation to do is to simply count all macros from those meals towards your specific meal. It does complicate things a bit, and generally it's easier to eat most of the foods provided if simplicity is your goal. </button>
-      </div>
-      <!-- Dining Tips -->
-      <div class="container">
-        <h4>Tips for dining out</h4>
-        <p>Here are some key words to look for to help you choose the lower calorie, lower fat options on the menu. www.calorieking.com is a great website that has the nutritional information for most restaurants</p>
-        <div class="row">
-          <div class="list-group col-lg-6">
-            <button href="#" class="list-group-item active">
-              WORDS TO CHOOSE
-            </button>
-            <button type="button" class="list-group-item">Baked</button>
-            <button type="button" class="list-group-item">Broiled</button>
-            <button type="button" class="list-group-item">Boiled</button>
-            <button type="button" class="list-group-item">Fat Free</button>
-            <button type="button" class="list-group-item">Fresh</button>
-            <button type="button" class="list-group-item">Garden Fresh</button>
-            <button type="button" class="list-group-item">Grilled</button>
-            <button type="button" class="list-group-item">light</button>
-            <button type="button" class="list-group-item">Marinated</button>
-            <button type="button" class="list-group-item">Poached</button>
-            <button type="button" class="list-group-item">Red Sauce</button>
-            <button type="button" class="list-group-item">Reduced</button>
-            <button type="button" class="list-group-item">Roasted</button>
-            <button type="button" class="list-group-item">Seasoned</button>
-            <button type="button" class="list-group-item">Steamed</button>
-            <button type="button" class="list-group-item">Vegetarian</button>
-            <button type="button" class="list-group-item">Vinaigrette</button>
-          </div>
-          <div class="list-group col-lg-3">
-            <button href="#" class="list-group-item active">
-              PROTEIN CHOICE
-            </button>
-            <button type="button" class="list-group-item">Cuts on meat with "loin" in the name</button>
-            <button type="button" class="list-group-item">Roast - chuck, rib or rump</button>
-            <button type="button" class="list-group-item">Steak - cubed, flank, porterhouse, skirt, sirloin, tenderloin, T-bone</button>
-            <button type="button" class="list-group-item">Pork - tenderloin, chops, ham, Canadian bacon</button>
-            <button type="button" class="list-group-item">Poultry - skinless, white meat</button>
-            <button type="button" class="list-group-item">Fish – any, just not fried</button>
-            <button type="button" class="list-group-item">Egg white or egg substitute</button>
-          </div>
-          <div class="list-group col-lg-3">
-            <button href="#" class="list-group-item active">
-              HEALTHY SIDE OPTIONS
-            </button>
-            <button type="button" class="list-group-item">Baked potato</button>
-            <button type="button" class="list-group-item">Baked sweet potato</button>
-            <button type="button" class="list-group-item">Rice</button>
-            <button type="button" class="list-group-item">Green beans</button>
-            <button type="button" class="list-group-item">Cooked carrots</button>
-            <button type="button" class="list-group-item">Asparagus</button>
-            <button type="button" class="list-group-item">Cottage cheese</button>
-          </div>
-          
-        </div>
-
-      </div>
-
-      <!-- Travel Tips -->
-      <div class="list-group">
-        <button href="#" class="list-group-item active">
-          TRAVEL TIPS
-        </button>
-        <button type="button" class="list-group-item">1.) Get in at least 4 servings of protein per day, 2-3 servings of veggies, and 2-3 servings of fats.</button>
-        <button type="button" class="list-group-item">2.) Spread out the above mentioned every 4-5 hours.</button>
-        <button type="button" class="list-group-item">3.) Carry protein bars, jerky snacks (listed below) and protein shakes to help get in the meals. Be sure to take protein powder with you (in small sized bags if needed).</button>
-        <button type="button" class="list-group-item">4.) Almost all nicer restaurants have low carb options. Chicken breast, fish, or steak with steamed veggies is an ideal meal choice.</button>
-        <button type="button" class="list-group-item">5.) All nicer restaurants SHOULD be able to custom make any lean meat with no additives (sauces, etc).</button>
-        <button type="button" class="list-group-item">6.) Worse case, if lean meats at restaurant cannot be custom ordered, eat the meat with the oils on it (counts as fats) and eat veggies for a low carb meal.</button>
-        <button type="button" class="list-group-item">7.) Remember, this is where true results are made, it will be very hard. Have a plan in place and you will stay on track!</button>
-      </div>
-      <div class="list-group">
-        <a href="#" class="list-group-item active">
-          <h5 class="list-group-item-heading">Helpful links for travel foods</h5>
-        </a>
-        <a href="http://www.simplysnackin.com/" class="list-group-item">
-          <p class="list-group-item-heading">2 of these could meet a protein requirement for 1 meal.</p>
-        </a>
-        <a href="http://questproteinbar.com/ingredients/" class="list-group-item">
-          <p class="list-group-item-heading">These are about the lowest carb protein bars available. Be warned, they are VERY high in fiber, more than 1 per day is not recommended.</p>
-        </a>
-        <a href="http://www.detourbar.com/products/lower-sugar-whey-protein-bars.html" class="list-group-item">
-          <p class="list-group-item-heading">Similar to above protein bars, limit to no more than 1 per day. We have heard these Detour bars taste better than the Quest bars. </p>
-        </a>
-      </div>
+    <div id="pagebody" class="container">
+      <header>
+        <h1>Diana's Meal Plan <small>One on One  Year Plan</small></h1>
+      </header>
       
-      <!-- Grocery List  -->
-      <div class="container">
-        <h4>Here's a list of foods you can use, just pick your favorites.</h4>
-        <div class="row">
-          <ul class="list-group col-lg-4">
-            <li class="list-group-item active">Lean Proteins</li>
-            <li class="list-group-item">Any fish (tuna, salmon, etc.…)</li>
-            <li class="list-group-item">Any seafood (shrimp, scallops etc.)</li>
-            <li class="list-group-item">Chicken breast</li>
-            <li class="list-group-item">Turkey breast</li>
-            <li class="list-group-item">Any meat 90% or leaner</li>
-            <li class="list-group-item">Egg whites</li>
-            <li class="list-group-item list-group-item-danger">3oz of lean meat ≈ 18g of protein</li>
-            <li class="list-group-item list-group-item-danger">4oz of lean meat ≈ 24g of protein</li>
-          </ul>
-
-          <ul class="list-group col-lg-4">
-            <li class="list-group-item active">Healthy Fats</li>
-            <li class="list-group-item">Any Nuts</li>
-            <li class="list-group-item">Natural nut butter</li>
-            <li class="list-group-item">Olive Oil</li>
-            <li class="list-group-item">Avocados</li>
-            <li class="list-group-item list-group-item-info">1 serving  ≈  15g fat</li>
-          </ul>
-
-          <ul class="list-group col-lg-4">
-            <li class="list-group-item active">carbohydrates</li>
-            <li class="list-group-item">Quinoa</li>
-            <li class="list-group-item">Oatmeal</li>
-            <li class="list-group-item">Whole grain pasta</li>
-            <li class="list-group-item">Whole grain bread</li>
-            <li class="list-group-item">Sweet potatoes</li>
-            <li class="list-group-item">Any Rice</li>
-            <li class="list-group-item">Any fruit</li>
-          </ul>
-        </div>
-        <div class="row">
-          <ul class="list-group col-lg-8">
-            <li class="list-group-item active">Vegetables</li>
-            <li class="list-group-item">Any dark green veggies</li>
-            <li class="list-group-item">Onions</li>
-            <li class="list-group-item">Peppers</li>
-            <li class="list-group-item">Portobello mushrooms</li>
-            <li class="list-group-item">Zucchini</li>
-            <li class="list-group-item">Broccoli</li>
-            <li class="list-group-item">Spinach</li>
-            <li class="list-group-item">Lettuce</li>
-            <li class="list-group-item">Tomatoes</li>
-            <li class="list-group-item">Green Peppers</li>
-            <li class="list-group-item">Asparagus</li>
-            <li class="list-group-item">Cabbage</li>
-            <li class="list-group-item">Cauliflower</li>
-            <li class="list-group-item">Celery</li>
-            <li class="list-group-item">Cucumber</li>
-            <li class="list-group-item">Brussels Sprouts</li>
-            <li class="list-group-item">Green Beans</li>
-            <li class="list-group-item">Yellow Squash</li>
-            <li class="list-group-item list-group-item-success">1 small handful ≈ 1 cup</li>
-          </ul>
-          <ul class="list-group col-lg-2">
-            <li class="list-group-item active">Work Out Carbs</li>
-            <li class="list-group-item">Powder Gatorade (highly recommended)</li>
-            <li class="list-group-item">Tang</li>
-            <li class="list-group-item">Koolaid</li>
-            <li class="list-group-item">Lemonade Powder</li>
-          </ul>
-
-          <ul class="list-group col-lg-2">
-            <li class="list-group-item active">Suplements</li>
-            <li class="list-group-item">Whey Protein</li>
-            <li class="list-group-item">casein Protein</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Serving Size Pictures -->
-      <div class="servingPictures">
-        <h3>*For frame of reference in regard to serving sizes per meal, please view the pictures below.</h3>
-        <div class="list-group">
-          <button href="#" class="list-group-item active">
-            Additional Notes 
-          </button>
-          <button type="button" class="list-group-item">1 cup of COOKED pasta ≈ 40g carbs </button>
-          <button type="button" class="list-group-item">1 cup of COOKED rice ≈ 40g carbs </button>
-          <button type="button" class="list-group-item">1 cup of COOKED oatmeal ≈ 40g carbs </button>
-          <button type="button" class="list-group-item">1 medium sized apple/orange/banana ≈ 25g carbs </button>
+      <section id="tables">
+        
+        <!-- list of tables-->
+        <div class="btn-group" role="group" aria-label="...">
+          <button type="button" class="btn btn-default">Cardio Table</button>
+          <button type="button" class="btn btn-default">Weight Lifting Table</button>
+        </div> <!-- end of list of tables-->
+      
+        <!--  Cardio Table -->
+        <table id="cardiotable" class="table table-condensed table-bordered table-striped">
+          <caption>CARDIO ONLY OR REST - MONDAY, TUESDAY & WEDNESDAY</caption>
+          <thead>
+            <tr class="success">
+              <th>Meal:</th>
+              <th>Time:</th>
+              <th>Protein Amount:</th>
+              <th>Veggie Amount:</th>
+              <th>Healthy Fat Amount:</th>
+              <th>Healthy Carb Amount:</th>
+              <th>Workout Carb Amount:</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Meal 1</td>
+              <td>~7:00 AM (waking)</td>
+              <td>4oz  any lean protein source</td>
+              <td>2 small handfuls greens</td>
+              <td>1 serving healthy fats</td>
+              <td>None</td>
+              <td>None</td>
+            </tr>
+            <tr>
+              <td>Meal 2</td>
+              <td>~11:00 AM (3-5 hours after last meal)</td>
+              <td>4oz  any lean protein source</td>
+              <td>2 small handfuls greens</td>
+              <td>1 serving healthy fats</td>
+              <td>20 g healthy carbs</td>
+              <td>None</td>
+            </tr>
+            <tr>
+              <td>Meal 3</td>
+              <td>~3:00 PM (3-5 hours after last meal)</td>
+              <td>4oz  any lean protein source</td>
+              <td>2 small handfuls greens</td>
+              <td>1 serving healthy fats</td>
+              <td>20 g healthy carbs</td>
+              <td>None</td>
+            </tr>
+            <tr>
+              <td>Meal 4</td>
+              <td>~7:00 PM (3-5 hours after last meal)</td>
+              <td>4oz  any lean protein source</td>
+              <td>2 small handfuls greens</td>
+              <td>1 serving healthy fats</td>
+              <td>20 g healthy carbs</td>
+              <td>None</td>
+            </tr>
+            <tr>
+              <td>Meal 5</td>
+              <td>~11:00 PM (Bedtime)</td>
+              <td>20g casein protein in water</td>
+              <td>None</td>
+              <td>1.5 servings healthy fats</td>
+              <td>None</td>
+              <td>None</td>
+            </tr>
+          </tbody>
+        </table>  <!--end of cardio table-->
+  
+        <!--  Weight Lifting Table -->
+        <table id="liftingtable" class="table table-condensed table-bordered table-striped">
+          <caption>WEIGHTS - **FEBRUARY**MONDAY, TUESDAY, WEDNESDAY & FRIDAY (1 HOUR TOTAL)</caption>
+          <thead>
+            <tr class="info">
+              <th>Meal:</th>
+              <th>Time:</th>
+              <th>Protein Amount:</th>
+              <th>Veggie Amount:</th>
+              <th>Healthy Fat Amount:</th>
+              <th>Healthy Carb Amount:</th>
+              <th>Workout Carb Amount:</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Meal 1</td>
+              <td>~5:00/5:30 AM (Drink 2/3 of workout shake upon waking, 1/3 during workout)</td>
+              <td>20g whey protein in water</td>
+              <td>None</td>
+              <td>None</td>
+              <td>None</td>
+              <td>25g workout carbs </td>
+            </tr>
+            <tr>
+              <td>Meal 2</td>
+              <td>~7:00 AM (20 minutes after workout is over)</td>
+              <td>3oz  any lean protein source</td>
+              <td>2 small handfuls greens</td>
+              <td>1/2 serving healthy fats</td>
+              <td>40 g healthy carbs</td>
+              <td>None</td>
+            </tr>
+            <tr>
+              <td>Meal 3</td>
+              <td>~10:30 AM (2-4 hours after last meal)</td>
+              <td>3oz  any lean protein source</td>
+              <td>2 small handfuls greens</td>
+              <td>1/2 serving healthy fats</td>
+              <td>20 g healthy carbs</td>
+              <td>None</td>
+            </tr>
+            <tr>
+              <td>Meal 4</td>
+              <td>~2:30 PM (3-5 hours after last meal)</td>
+              <td>3oz  any lean protein source</td>
+              <td>2 small handfuls greens</td>
+              <td>1/2 serving healthy fats</td>
+              <td>20 g healthy carbs</td>
+              <td>None</td>
+            </tr>
+            <tr>
+              <td>Meal 5</td>
+              <td>~6:00 PM (3-5 hours after last meal)</td>
+              <td>3oz  any lean protein source</td>
+              <td>2 small handfuls greens</td>
+              <td>1/2 serving healthy fats</td>
+              <td>20 g healthy carbs</td>
+              <td>None</td>
+            </tr>
+            <tr>
+              <td>Meal 6</td>
+              <td>~9:30 PM (Bedtime)</td>
+              <td>20g casein protein in water</td>
+              <td>None</td>
+              <td>1 servings healthy fats</td>
+              <td>None</td>
+              <td>None</td>
+            </tr>
+          </tbody>
+        </table> <!--  end of Weight Lifting Table -->
+        
+      </section>
+      
+      <section id="tips">
+        <!-- list of tips-->
+        <div id="listoftips">
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default">Quick Tips</button>
+            <button type="button" class="btn btn-default">Travel Tips</button>
+            <button type="button" class="btn btn-default">Dining Out Tips</button>
+          </div>
+          </div>
+        
+        <!-- Quick Tips List-->
+        <div id="quicktips">
+          <div class="list-group">
+            <button href="#" class="list-group-item active">
+              QUICK TIPS
+            </button>
+            <button href="#" class="list-group-item">There is no need to worry about crossover calculations on the templates for the fat in protein sources, carbs in fat sources, etc. You just focus on hitting the amounts listed PER column. The rest has been factored in by the expert team at RP. This is designed for simplicty's sake, making things easier to follow and an easier diet generally yields better long term results. </button>
+            <button href="#" class="list-group-item">When measuring amounts on the templates, protein is total weight (3oz protein =18g WORTH of protein), fats are measured in the amount of fat (1 serving of fat = 15g WORTH of fat), and carbs are measured in the AMOUNT of carbs, NOT the total weight (100g TOTAL weight of carbohydrate for sweet potato only yields about 25g WORTH of carbohydrates).</button>
+            <button href="#" class="list-group-item">We do NOT recommend starting the diet templates until you have read the "how to use the diet templates" document, have watched the "how to" video AND have read the extensive diet FAQ document. Here is a helpful walkthrough video by Dr. Jen Case -  <a href="https://youtu.be/H7lf8RUlmaA">youTube</a></button>
+            <button href="#" class="list-group-item">Be sure to join the RP Clients group on Facebook. Our group has over 10,000 members and tons of veterans of RP that can help! Use the link here to join: <a href="https://www.facebook.com/groups/808584542522388/">Facebook Group</a></button>
+            <button href="#" class="list-group-item">If you have any issues with casein protein, the FAQ recommends some alternatives ranked in order of best to worst (other dairy products, then any lean protein source, then last is just whey).</button>
+            <button href="#" class="list-group-item">If you find that you're hungry upon starting the templates, that's 100% normal as you get used to not eating whenever you want, but have a more set scientific meal timing schedule. Most people's hunger levels adjust at least somewhat after several days.</button>
+            <button href="#" class="list-group-item">If you find yourself hungry, use higher volume foods (ex - nuts instead of oils, sweet potatoes vs rice). The opposite applies if you are full or don't find yourself overly hungry; use lower volume foods to help reduce overall food volume. </button>
+            <button href="#" class="list-group-item">If you want to use foods NOT listed on the RP spreadsheet, it's very likely ok to do so. Our best recommendation to do is to simply count all macros from those meals towards your specific meal. It does complicate things a bit, and generally it's easier to eat most of the foods provided if simplicity is your goal. </button>
+          </div>
         </div>
         
-        <div class="container">
-
-          <div class="row">
-            <div class="thumbnail col-lg-4">
-                <img src="Assests/psp_fruit_apple.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
-              <div class="caption">Ex. - 1 medium sized apple</div>
+        <!-- Dining Tips -->
+        <div id="dinngtips">
+          <div class="container">
+            <h4>Tips for dining out</h4>
+            <p>Here are some key words to look for to help you choose the lower calorie, lower fat options on the menu. www.calorieking.com is a great website that has the nutritional information for most restaurants</p>
+            <div class="row">
+              <div class="list-group col-lg-6">
+                <button href="#" class="list-group-item active">
+                  WORDS TO CHOOSE
+                </button>
+                <button type="button" class="list-group-item">Baked</button>
+                <button type="button" class="list-group-item">Broiled</button>
+                <button type="button" class="list-group-item">Boiled</button>
+                <button type="button" class="list-group-item">Fat Free</button>
+                <button type="button" class="list-group-item">Fresh</button>
+                <button type="button" class="list-group-item">Garden Fresh</button>
+                <button type="button" class="list-group-item">Grilled</button>
+                <button type="button" class="list-group-item">light</button>
+                <button type="button" class="list-group-item">Marinated</button>
+                <button type="button" class="list-group-item">Poached</button>
+                <button type="button" class="list-group-item">Red Sauce</button>
+                <button type="button" class="list-group-item">Reduced</button>
+                <button type="button" class="list-group-item">Roasted</button>
+                <button type="button" class="list-group-item">Seasoned</button>
+                <button type="button" class="list-group-item">Steamed</button>
+                <button type="button" class="list-group-item">Vegetarian</button>
+                <button type="button" class="list-group-item">Vinaigrette</button>
+              </div>
+              <div class="list-group col-lg-3">
+                <button href="#" class="list-group-item active">
+                  PROTEIN CHOICE
+                </button>
+                <button type="button" class="list-group-item">Cuts on meat with "loin" in the name</button>
+                <button type="button" class="list-group-item">Roast - chuck, rib or rump</button>
+                <button type="button" class="list-group-item">Steak - cubed, flank, porterhouse, skirt, sirloin, tenderloin, T-bone</button>
+                <button type="button" class="list-group-item">Pork - tenderloin, chops, ham, Canadian bacon</button>
+                <button type="button" class="list-group-item">Poultry - skinless, white meat</button>
+                <button type="button" class="list-group-item">Fish – any, just not fried</button>
+                <button type="button" class="list-group-item">Egg white or egg substitute</button>
+              </div>
+              <div class="list-group col-lg-3">
+                <button href="#" class="list-group-item active">
+                  HEALTHY SIDE OPTIONS
+                </button>
+                <button type="button" class="list-group-item">Baked potato</button>
+                <button type="button" class="list-group-item">Baked sweet potato</button>
+                <button type="button" class="list-group-item">Rice</button>
+                <button type="button" class="list-group-item">Green beans</button>
+                <button type="button" class="list-group-item">Cooked carrots</button>
+                <button type="button" class="list-group-item">Asparagus</button>
+                <button type="button" class="list-group-item">Cottage cheese</button>
+              </div>
+              
             </div>
-
-            <div class="thumbnail col-lg-4">
-                <img src="Assests/psp_grains_pasta.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
-              <div class="caption">Ex. - 1 medium sized apple</div>
-            </div>
-            
-            <div class="thumbnail col-lg-4">
-                <img src="Assests/psp_veg_broccoli.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
-              <div class="caption">Ex. - 1 medium sized apple</div>
-            </div>
-            <div class="thumbnail col-lg-4">
-                <img src="Assests/psp_meat_chicken.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
-              <div class="caption">Ex. - 1 medium sized apple</div>
-            </div>
-            <div class="thumbnail col-lg-4">
-                <img src="Assests/psp_meat_almonds.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
-              <div class="caption">Ex. - 1 medium sized apple</div>
-            </div>  
+    
           </div>
         </div>
-      </div> <!-- end of serving Pictures -->
+
+        <!-- Travel Tips -->
+        <div id="traveltips">
+          <div class="list-group">
+            <button href="#" class="list-group-item active">
+              TRAVEL TIPS
+            </button>
+            <button type="button" class="list-group-item">1.) Get in at least 4 servings of protein per day, 2-3 servings of veggies, and 2-3 servings of fats.</button>
+            <button type="button" class="list-group-item">2.) Spread out the above mentioned every 4-5 hours.</button>
+            <button type="button" class="list-group-item">3.) Carry protein bars, jerky snacks (listed below) and protein shakes to help get in the meals. Be sure to take protein powder with you (in small sized bags if needed).</button>
+            <button type="button" class="list-group-item">4.) Almost all nicer restaurants have low carb options. Chicken breast, fish, or steak with steamed veggies is an ideal meal choice.</button>
+            <button type="button" class="list-group-item">5.) All nicer restaurants SHOULD be able to custom make any lean meat with no additives (sauces, etc).</button>
+            <button type="button" class="list-group-item">6.) Worse case, if lean meats at restaurant cannot be custom ordered, eat the meat with the oils on it (counts as fats) and eat veggies for a low carb meal.</button>
+            <button type="button" class="list-group-item">7.) Remember, this is where true results are made, it will be very hard. Have a plan in place and you will stay on track!</button>
+          </div>
+          
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              <h5 class="list-group-item-heading">Helpful links for travel foods</h5>
+            </a>
+            <a href="http://www.simplysnackin.com/" class="list-group-item">
+              <p class="list-group-item-heading">2 of these could meet a protein requirement for 1 meal.</p>
+            </a>
+            <a href="http://questproteinbar.com/ingredients/" class="list-group-item">
+              <p class="list-group-item-heading">These are about the lowest carb protein bars available. Be warned, they are VERY high in fiber, more than 1 per day is not recommended.</p>
+            </a>
+            <a href="http://www.detourbar.com/products/lower-sugar-whey-protein-bars.html" class="list-group-item">
+              <p class="list-group-item-heading">Similar to above protein bars, limit to no more than 1 per day. We have heard these Detour bars taste better than the Quest bars. </p>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <section id="grocerylist">
+        <!-- Grocery List  -->
+        <div class="container">
+          <h4>Here's a list of foods you can use, just pick your favorites.</h4>
+          <div class="row">
+            <ul class="list-group col-lg-4">
+              <li class="list-group-item active">Lean Proteins</li>
+              <li class="list-group-item">Any fish (tuna, salmon, etc.…)</li>
+              <li class="list-group-item">Any seafood (shrimp, scallops etc.)</li>
+              <li class="list-group-item">Chicken breast</li>
+              <li class="list-group-item">Turkey breast</li>
+              <li class="list-group-item">Any meat 90% or leaner</li>
+              <li class="list-group-item">Egg whites</li>
+              <li class="list-group-item list-group-item-danger">3oz of lean meat ≈ 18g of protein</li>
+              <li class="list-group-item list-group-item-danger">4oz of lean meat ≈ 24g of protein</li>
+            </ul>
+  
+            <ul class="list-group col-lg-4">
+              <li class="list-group-item active">Healthy Fats</li>
+              <li class="list-group-item">Any Nuts</li>
+              <li class="list-group-item">Natural nut butter</li>
+              <li class="list-group-item">Olive Oil</li>
+              <li class="list-group-item">Avocados</li>
+              <li class="list-group-item list-group-item-info">1 serving  ≈  15g fat</li>
+            </ul>
+  
+            <ul class="list-group col-lg-4">
+              <li class="list-group-item active">carbohydrates</li>
+              <li class="list-group-item">Quinoa</li>
+              <li class="list-group-item">Oatmeal</li>
+              <li class="list-group-item">Whole grain pasta</li>
+              <li class="list-group-item">Whole grain bread</li>
+              <li class="list-group-item">Sweet potatoes</li>
+              <li class="list-group-item">Any Rice</li>
+              <li class="list-group-item">Any fruit</li>
+            </ul>
+          </div>
+          <div class="row">
+            <ul class="list-group col-lg-8">
+              <li class="list-group-item active">Vegetables</li>
+              <li class="list-group-item">Any dark green veggies</li>
+              <li class="list-group-item">Onions</li>
+              <li class="list-group-item">Peppers</li>
+              <li class="list-group-item">Portobello mushrooms</li>
+              <li class="list-group-item">Zucchini</li>
+              <li class="list-group-item">Broccoli</li>
+              <li class="list-group-item">Spinach</li>
+              <li class="list-group-item">Lettuce</li>
+              <li class="list-group-item">Tomatoes</li>
+              <li class="list-group-item">Green Peppers</li>
+              <li class="list-group-item">Asparagus</li>
+              <li class="list-group-item">Cabbage</li>
+              <li class="list-group-item">Cauliflower</li>
+              <li class="list-group-item">Celery</li>
+              <li class="list-group-item">Cucumber</li>
+              <li class="list-group-item">Brussels Sprouts</li>
+              <li class="list-group-item">Green Beans</li>
+              <li class="list-group-item">Yellow Squash</li>
+              <li class="list-group-item list-group-item-success">1 small handful ≈ 1 cup</li>
+            </ul>
+            <ul class="list-group col-lg-2">
+              <li class="list-group-item active">Work Out Carbs</li>
+              <li class="list-group-item">Powder Gatorade (highly recommended)</li>
+              <li class="list-group-item">Tang</li>
+              <li class="list-group-item">Koolaid</li>
+              <li class="list-group-item">Lemonade Powder</li>
+            </ul>
+  
+            <ul class="list-group col-lg-2">
+              <li class="list-group-item active">Suplements</li>
+              <li class="list-group-item">Whey Protein</li>
+              <li class="list-group-item">casein Protein</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      <section id="servingsizes">
+        <!-- Serving Size Pictures -->
+        <div class="servingPictures">
+          <h3>*For frame of reference in regard to serving sizes per meal, please view the pictures below.</h3>
+          <div class="list-group">
+            <button href="#" class="list-group-item active">
+              Additional Notes 
+            </button>
+            <button type="button" class="list-group-item">1 cup of COOKED pasta ≈ 40g carbs </button>
+            <button type="button" class="list-group-item">1 cup of COOKED rice ≈ 40g carbs </button>
+            <button type="button" class="list-group-item">1 cup of COOKED oatmeal ≈ 40g carbs </button>
+            <button type="button" class="list-group-item">1 medium sized apple/orange/banana ≈ 25g carbs </button>
+          </div>
+          
+          <div class="container">
+  
+            <div class="row">
+              <div class="thumbnail col-lg-4">
+                  <img src="Assests/psp_fruit_apple.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+                <div class="caption">Ex. - 1 medium sized apple</div>
+              </div>
+  
+              <div class="thumbnail col-lg-4">
+                  <img src="Assests/psp_grains_pasta.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+                <div class="caption">Ex. - 1 medium sized apple</div>
+              </div>
+              
+              <div class="thumbnail col-lg-4">
+                  <img src="Assests/psp_veg_broccoli.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+                <div class="caption">Ex. - 1 medium sized apple</div>
+              </div>
+              <div class="thumbnail col-lg-4">
+                  <img src="Assests/psp_meat_chicken.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+                <div class="caption">Ex. - 1 medium sized apple</div>
+              </div>
+              <div class="thumbnail col-lg-4">
+                  <img src="Assests/psp_meat_almonds.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+                <div class="caption">Ex. - 1 medium sized apple</div>
+              </div>  
+            </div>
+          </div>
+        </div> <!-- end of serving Pictures -->
+      </section>
       
     </div>  <!-- end of Body -->
     
@@ -387,5 +419,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
