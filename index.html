@@ -34,9 +34,9 @@
       <section id="tables" class="">
         
         <!-- list of tables-->
-        <div class="btn-group" role="group" aria-label="...">
-          <button type="button" class="btn btn-primary active">Cardio Table</button>
-          <button type="button" class="btn btn-default">Weight Lifting Table</button>
+        <div id="wods" class="btn-group" role="group" aria-label="...">
+          <button id="cardiobtn" type="button" class="btn btn-primary active">Cardio Table</button>
+          <button id="liftingbtn" type="button" class="btn btn-default">Weight Lifting Table</button>
         </div> <!-- end of list of tables-->
       
         <!--  Cardio Table -->
@@ -103,7 +103,7 @@
         </table>  <!--end of cardio table-->
   
         <!--  Weight Lifting Table -->
-        <table id="liftingtable" class="table table-condensed table-bordered table-striped hidden">
+        <table id="liftingtable" class="table table-condensed table-bordered table-striped">
           <caption>WEIGHTS - **FEBRUARY**MONDAY, TUESDAY, WEDNESDAY & FRIDAY (1 HOUR TOTAL)</caption>
           <thead>
             <tr class="info">
@@ -179,11 +179,11 @@
         <!-- list of tips-->
         <div id="listoftips">
           <div class="btn-group" role="group" aria-label="...">
-            <button type="button" class="btn btn-default">Quick Tips</button>
-            <button type="button" class="btn btn-default">Travel Tips</button>
-            <button type="button" class="btn btn-default">Dining Out Tips</button>
+            <button id="quickbtn" type="button" class="btn btn-primary">Quick Tips</button>
+            <button id="travelbtn" type="button" class="btn">Travel Tips</button>
+            <button id="diningbtn" type="button" class="btn">Dining Out Tips</button>
           </div>
-          </div>
+        </div>
         
         <!-- Quick Tips List-->
         <div id="quicktips">
@@ -203,7 +203,7 @@
         </div>
         
         <!-- Dining Tips -->
-        <div id="dinngtips">
+        <div id="diningtips">
           <div class="container">
             <h4>Tips for dining out</h4>
             <p>Here are some key words to look for to help you choose the lower calorie, lower fat options on the menu. www.calorieking.com is a great website that has the nutritional information for most restaurants</p>
